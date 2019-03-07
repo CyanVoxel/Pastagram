@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		084290CE2228E54A00A1D352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084290CD2228E54A00A1D352 /* AppDelegate.swift */; };
-		084290D02228E54A00A1D352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084290CF2228E54A00A1D352 /* ViewController.swift */; };
 		084290D32228E54A00A1D352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084290D12228E54A00A1D352 /* Main.storyboard */; };
 		084290D52228E54B00A1D352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084290D42228E54B00A1D352 /* Assets.xcassets */; };
 		084290D82228E54B00A1D352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084290D62228E54B00A1D352 /* LaunchScreen.storyboard */; };
 		084290E32228E54B00A1D352 /* PastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084290E22228E54B00A1D352 /* PastagramTests.swift */; };
 		084290EE2228E54B00A1D352 /* PastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084290ED2228E54B00A1D352 /* PastagramUITests.swift */; };
+		24F584252231784400EB40CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F584242231784400EB40CB /* LoginViewController.swift */; };
+		24F584272231785300EB40CB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F584262231785300EB40CB /* FeedViewController.swift */; };
+		24F5842922318AFD00EB40CB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5842822318AFD00EB40CB /* CameraViewController.swift */; };
 		4220215DA7D73B681CF54EB0 /* Pods_Pastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B2E4E354A2CBA12731B726 /* Pods_Pastagram.framework */; };
 		4B47300B297E88754E1E10EB /* Pods_PastagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F0AAD0ACB2B8477352A98A /* Pods_PastagramTests.framework */; };
 		D2BD5561F8BC2BB80D0F0234 /* Pods_PastagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE7952AF784877972FE9677 /* Pods_PastagramUITests.framework */; };
@@ -39,7 +41,6 @@
 /* Begin PBXFileReference section */
 		084290CA2228E54A00A1D352 /* Pastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		084290CD2228E54A00A1D352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		084290CF2228E54A00A1D352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		084290D22228E54A00A1D352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		084290D42228E54B00A1D352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		084290D72228E54B00A1D352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		084290ED2228E54B00A1D352 /* PastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastagramUITests.swift; sourceTree = "<group>"; };
 		084290EF2228E54B00A1D352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141640610564BB61FE202669 /* Pods-PastagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PastagramTests/Pods-PastagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24F584242231784400EB40CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24F584262231785300EB40CB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		24F5842822318AFD00EB40CB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		29F0AAD0ACB2B8477352A98A /* Pods_PastagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PastagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDCD2B2F1CEDD4EE7C7AA95 /* Pods-Pastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pastagram/Pods-Pastagram.release.xcconfig"; sourceTree = "<group>"; };
 		56B2E4E354A2CBA12731B726 /* Pods_Pastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,11 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				084290CD2228E54A00A1D352 /* AppDelegate.swift */,
-				084290CF2228E54A00A1D352 /* ViewController.swift */,
 				084290D12228E54A00A1D352 /* Main.storyboard */,
 				084290D42228E54B00A1D352 /* Assets.xcassets */,
 				084290D62228E54B00A1D352 /* LaunchScreen.storyboard */,
 				084290D92228E54B00A1D352 /* Info.plist */,
+				24F584242231784400EB40CB /* LoginViewController.swift */,
+				24F584262231785300EB40CB /* FeedViewController.swift */,
+				24F5842822318AFD00EB40CB /* CameraViewController.swift */,
 			);
 			path = Pastagram;
 			sourceTree = "<group>";
@@ -397,7 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084290D02228E54A00A1D352 /* ViewController.swift in Sources */,
+				24F584252231784400EB40CB /* LoginViewController.swift in Sources */,
+				24F5842922318AFD00EB40CB /* CameraViewController.swift in Sources */,
+				24F584272231785300EB40CB /* FeedViewController.swift in Sources */,
 				084290CE2228E54A00A1D352 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
